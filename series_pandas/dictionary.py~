@@ -1,0 +1,11 @@
+import pandas as pd
+
+kids_gifts = {
+    'Sally': 'doll',
+    'Joe': 'ball',
+    'Timmy': 'kite',
+    'Sue': 'basket'
+}
+
+kids_gifts_series = pd.Series(kids_gifts)
+print(f'Contenido de la serie: \n{kids_gifts_series}')
